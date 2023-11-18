@@ -151,9 +151,8 @@ export const BestTechStackBox = styled.div`
 export const BestTechStackList = styled.ul`
   margin: 0 auto;
   width: 580px;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 24px;
 `;
 export const BestTechStackItem = styled.li`
